@@ -19,17 +19,17 @@ body {
 
 
 .hp {
-  border: $border;
+  //border: $border;
   display: flex;
   height: 100vh;
     &__wrapper {
-      border: $border;
+      //border: $border;
       display: flex;
       flex-direction: column;
       width: 100%;
     }
     &__header {
-      border: $border;
+      //border: $border;
       display: flex;
       justify-content: center;
       width: 100%;
@@ -37,7 +37,7 @@ body {
       background-color: #f6f6f6;
     }
     &__headerwrp {
-      border: $border;
+      //border: $border;
       display: flex;
       justify-content: flex-end;
       align-items: center;
@@ -47,4 +47,51 @@ body {
           color: gray;
         }
     }
+    &__content {
+      //border: $border;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+    }
+    &__sendbid {
+      border: 1px solid lightgray;
+      display: flex;
+      width: 500px;
+      height: 350px;
+      border-radius: 7px;
+        form {
+          //border: $border;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+          width: 100%;
+          height: 100%;
+            input {
+              border: 1px solid gray;
+              width: 400px;
+              height: 30px;
+              border-radius: 3px;
+              padding-left: 10px;
+              //margin: 10px;
+            }
+            textarea {
+              width: 410px;
+            }
+            button {
+              border: none;
+              width: 410px;
+              height: 35px;
+              background-color: lightgray;
+              cursor: pointer;
+            }
+        }
+    }
+
+
+
+
+
 }

@@ -13,18 +13,15 @@ body {
 }
 
 .hp {
-  border: 1px solid red;
   display: flex;
   height: 100vh;
 }
 .hp__wrapper {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 .hp__header {
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -32,7 +29,6 @@ body {
   background-color: #f6f6f6;
 }
 .hp__headerwrp {
-  border: 1px solid red;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -41,4 +37,43 @@ body {
 .hp__headerwrp a {
   text-decoration: none;
   color: gray;
+}
+.hp__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.hp__sendbid {
+  border: 1px solid lightgray;
+  display: flex;
+  width: 500px;
+  height: 350px;
+  border-radius: 7px;
+}
+.hp__sendbid form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.hp__sendbid form input {
+  border: 1px solid gray;
+  width: 400px;
+  height: 30px;
+  border-radius: 3px;
+  padding-left: 10px;
+}
+.hp__sendbid form textarea {
+  width: 410px;
+}
+.hp__sendbid form button {
+  border: none;
+  width: 410px;
+  height: 35px;
+  background-color: lightgray;
+  cursor: pointer;
 }

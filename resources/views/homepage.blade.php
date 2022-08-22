@@ -19,7 +19,14 @@
                 </div>
             </div>
             <div class="hp__content">
-
+                <div class="hp__sendbid">
+                    <form method="post" name="bindform">
+                        <input type="text" name="name" placeholder="Имя">
+                        <input type="email" name="email" placeholder="Email">
+                        <textarea name="message"cols="30" rows="10" placeholder="Текст заявки"></textarea>
+                        <button type="submit">Отправить</button>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
